@@ -253,6 +253,12 @@ header {
     list-style: none;
     width: 100%;
 }
+.meals-showcase:first-child {
+    margin-bottom:0;
+}
+.meals-showcase:last-child {
+    margin-top: 0;
+}
 
 
 .meals-showcase li {
@@ -509,3 +515,88 @@ cite img {
  }
 
  *:focus {outline:none}
+
+
+   /* ----------------------------------------------------
+            footer
+ ----------------------------------------------------
+ */
+
+footer {
+    background-color: #333;
+    padding: 40px;
+}
+
+
+ .footer-nav    {
+     float: left;
+     list-style: none;
+     
+ }
+
+ .social-links {
+     list-style: none;
+     float: right;
+ }
+
+ .footer-nav li,
+ .social-links li {
+     display: inline-block;
+     margin-right: 20px;
+ }
+
+ .social-links li:last-child,
+ .footer-nav li:last-child {
+     margin-right: 0px;
+ }
+
+ .footer-nav li a:link,
+ .footer-nav li a:visited, 
+ .social-links li a:visited, 
+ .social-links li a:link {
+     text-decoration: none;
+     border: 0;
+     color: #888;
+    transition: 0.2s;
+ } 
+
+ .footer-nav li a:hover,
+ .footer-nav li a:active {
+    color: #ddd;
+ }
+
+ .social-links li a:link,
+ .social-links li a:visited {
+     font-size: 120%;
+
+ }
+
+
+ .ion-logo-facebook,
+ .ion-logo-instagram,
+ .ion-logo-googleplus,
+ .ion-logo-twitter {
+     transition: color 0.2s; 
+ }
+
+ .ion-logo-facebook:hover{
+    color:#3b5998;
+ }
+ .ion-logo-instagram:hover{
+    color: #517fa4;
+ }
+ .ion-logo-googleplus:hover{
+    color:#dd4b39;
+ }
+ .ion-logo-twitter:hover{
+    color:#00aced;
+ }
+
+ 
+
+ footer p {
+     color: #888;
+     text-align: center;
+     font-size: 90%;
+ }
+
