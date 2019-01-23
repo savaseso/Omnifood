@@ -295,7 +295,7 @@ header {
 }
 
 .meal-photo {
-    width: 100;
+    width: 100%;
     margin: 0;
     overflow: hidden; /*transdorm miatt*/
     background-color: #000;
@@ -516,7 +516,7 @@ cite img {
      font-size: 90%;
  }
  .plan-box ul li {
-     padding: 5px, 0px;
+     padding: 5px 0px;
  }
 
 
